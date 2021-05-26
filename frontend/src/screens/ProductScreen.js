@@ -6,7 +6,6 @@ import products from "../products";
 
 const ProductScreen = ({ match }) => {
   const product = products.find((item) => item._id === match.params.id);
-  console.log(product);
   return (
     <>
       <Link className="btn btn-light my-3" to="/">
