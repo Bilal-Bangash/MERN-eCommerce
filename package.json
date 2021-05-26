@@ -2,6 +2,7 @@
   "name": "mern-ecommerce",
   "version": "1.0.0",
   "description": "MERN E-Commerce App",
+  "type": "module",
   "main": "server.js",
   "dependencies": {
     "dotenv": "^10.0.0",
