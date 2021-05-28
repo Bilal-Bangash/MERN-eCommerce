@@ -2735,6 +2735,10 @@ textarea.form-control.is-invalid {
     transition: none;
   }
 }
+
+.btn-block {
+  width: -webkit-fill-available;
+}
 .btn:hover {
   color: #55595c;
 }
